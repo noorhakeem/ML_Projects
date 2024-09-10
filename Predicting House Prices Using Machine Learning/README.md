@@ -7,7 +7,7 @@ Libraries like Pandas, NumPy, Matplotllib.
 ## 2. Data Preprocessing
 ## 3. Exploratory Data Analysis
 ## 4. Feature Engineering 
-## 5. Model selcetion 
+## 5. Model selection 
 ## 6. Model Evaluation 
 ## 7. Model Tuning and Optimization 
 ## 8. Conclusion and Reporting 
