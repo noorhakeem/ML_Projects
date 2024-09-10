@@ -12,4 +12,4 @@ Libraries like Pandas, NumPy, Matplotllib.
 ## 7. Model Tuning and Optimization 
 ## 8. Conclusion and Reporting 
 
-Te Project main guideline is drawn from ChatGPT. I will be off course Customizing the Project as I go Along 
+The  main guideline of this Project  is drawn from ChatGPT. I will be off course Customizing the Project as I go along 
