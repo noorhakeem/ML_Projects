@@ -1,5 +1,5 @@
 
-### House Price Prediction
+# House Price Prediction
 ## 📚 Project Overview
 This project predicts house prices based on various features such as lot size, year built, number of rooms, and more.
 It is built using a supervised Machine Learning Regression model.
