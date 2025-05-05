@@ -18,6 +18,7 @@ y = data ["median_house_value"]  # Target
 # 3. Split data 
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+train_test_split(X, y, test_size=0.2, random_state=42)
 
 # 4. train model ( Linear Regression)
 
@@ -35,3 +36,9 @@ print(f"Training R²: {train_score:.2f}, Test R²: {test_score:.2f}")
 
 pickle.dump(model, open("models/model.pkl", "wb"))
 print("Model Trained and saved in (../models/) ")
+
+# New code to add
+if hasattr(model, 'coef_'):
+    print("\nFeature Importance:")
+    for feature, importance in zip(X.columns, model.coef_):
+        print(f"{feature}: {importance:.4f}")
