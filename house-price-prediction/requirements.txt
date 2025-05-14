@@ -10,7 +10,7 @@ gunicorn==20.1.0
 
 # Dev tools
 jupyterlab==4.0.4
-matplotlib==3.7.2
+matplotlib==3.8.4
+seaborn==0.13.2
 
-# Optional (uncomment if needed)
-# torch==2.2.0 --index-url https://download.pytorch.org/whl/cpu
+
